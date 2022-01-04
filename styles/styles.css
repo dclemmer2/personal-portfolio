@@ -1,0 +1,313 @@
+/***** Navbar ******/
+.navbar {
+    background-color: #202020;
+    width: 100%;
+}
+
+.navbar-name {
+    color: #FC6F5C!important;
+    text-decoration: none!important;
+    font-family: 'Tangerine', cursive;
+    font-size: 1.7em;
+}
+
+.navbar-name:hover {
+    color: #fc6f5ca8!important;
+    transition: all 0.3s ease-out 0s;
+}
+
+.nav-link {
+    font-size: 18px;
+    transition: all 0.3s ease-out 0s;
+}
+
+.nav-link:hover {
+    transition: all 0.3s ease-out 0s;
+}
+
+
+/* LANDING PAGE STYLES */
+
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body#body-home {
+    background-image: url("../images/paris-blurred.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-home {
+    background-color: #7c736b59;
+    padding: 20px;
+}
+
+.content-header {
+    padding: 2em 20% 0;
+}
+
+@media (min-width: 1500px) {
+    .content-header {
+        padding: 2em 30% 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .index-container {
+        width: 95%!important;
+        background-color: #6c5949c4;
+        border: none;
+    }
+    .content-header {
+        padding: 2em 0 0;
+    }
+    .header-home {
+        background-color: #6c5949c4;
+        text-shadow: none;
+    }
+}
+
+h1#name {
+    font-size:4em;
+    text-shadow: 2px 2px black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.index-container {
+    width: 65%;
+    background-color: #776d64eb;
+    border: 3px solid #f1f1f1;
+    padding: 20px;
+}
+
+.card {
+    background-color: #486664;
+}
+
+@media (min-width: 992px) {
+    .card {
+        margin: 10px;
+    }
+}
+
+#projects {
+    background-color: #32847ee8;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.project-body, .project-images {
+    width: 75%;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding-top: 3.5em;
+}
+
+/***** Header Section ******/
+img.rounded-circle {
+     width: 160px;
+ }
+
+@media(min-width:1000px) {
+    img.rounded-circle {
+        width: 200px;
+    }
+}
+
+hr {
+    background-color: white;
+}
+
+#about, #education, #skills, #projectsResume, #achievements {
+    scroll-margin-top: 1.5em;
+}
+
+.education-content {
+    padding-left: 3em;
+}
+
+span.font-weight-bold {
+    font-size: 18px;
+}
+
+@media(max-width: 630px) {
+    span.float-right {
+        float: none!important;
+        display: block;
+    }
+}
+
+.project-link:hover{
+    border: 3px solid black;
+}
+
+.proj-img-resume {
+    width: 100%;
+}
+
+/***** Login Pg Styles ******/
+form#login {
+    width: 20em;
+    border: 13px solid #000000d9;
+    background-color: #2f867a;
+}
+
+div.login {
+    padding: 10em 0 10em;
+    background-image: url(../images/marble.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+input.submit-login {
+    background-color: #e86755;
+    border: none;
+}
+
+input.submit-login:hover {
+    background-color: #fc6f5c;
+    border: none;
+}
+
+
+input.submit-login, input.submit-form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+    #formpg {
+        width: 50%;
+    }
+}
+
+/***** Footer ******/
+/***** Collapsible Footer Styles *****/
+footer {
+    background-color: #202020;
+    padding: 1rem;
+}
+
+
+@media(min-width: 1400px) {
+    footer {
+        padding-left: 12em;
+        padding-right: 12em;
+    }
+}
+
+footer ul {
+    padding:0 0 0;
+}
+
+footer ul li,.taber
+{
+    list-style:none;
+    margin-bottom:10px;
+}
+
+.fa {
+    color: white;
+    margin-right: 10px;
+    font-size:18px;
+    width:1.2em;
+}
+
+@media(max-width: 800px) {
+    .fa {
+        width: 15px;
+    }
+}
+
+.header-contact, .contact {
+    list-style: none;
+}
+
+ul>li>a, .connect, #guestbook-link {
+    color: #a4a4a4;
+    text-decoration: none;
+    line-height: 1.8;
+}
+
+ul>li>a:hover, a:hover, #guestbook-link:hover {
+    color: #e86755;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#admin-link {
+    color: #3caca4d1;
+    text-decoration: none;
+}
+
+#admin-link:hover {
+    color: #b8ece9;
+    text-decoration: none;
+}
+
+#adminLock {
+    color: #3caca4d1;
+    margin-right: 0;
+}
+
+.copyright-text {
+    color: gray;
+    font-size: 13px;
+}
+
+footer a.taber {
+    font-size: 1.5em;
+    color: #FC6F5C;
+    text-decoration: none !important;
+}
+
+#collapseOne, #collapsetwo {
+    margin-top: 1em;
+}
+
+footer a.taber:hover {
+    text-decoration: none!important;
+}
+
+@media (max-width:765px)
+{
+    .content {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .top-container {
+        padding-bottom: 20px;
+    }
+
+    div.col-md-4 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .taber {
+        cursor:auto;
+    }
+    .taber.collapsed:after {
+        content: "+";
+        float: right;
+    }
+    .taber:after {
+        content: "-";
+        float: right;
+    }
+
+}
